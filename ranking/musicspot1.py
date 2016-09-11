@@ -44,7 +44,7 @@ for url in urls:
 			#rank update
 			rank_list[pos] = {'href' : href, 'artist': artist, 'title': title, 'desc': ''} 
 		#if not with position then with description
-		else:
+		elif pos != '0':
 			desc = p.text
 			#rank update
 			rank_list[pos]['desc'] = desc
