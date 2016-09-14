@@ -94,13 +94,16 @@ def PlotFile(filename):
 	ax[0].plot(date, values[1], colors[1])
 	ax[0].set_title(str(filename.split('\\')[-1]))
 	ax[0].set_ylabel('Meas. and SP')
+	ax[0].set_ylim([15, 30])
+	ax[0].legend(['Temp.', 'SP'])
+
 	#ax[0].set_legend(names[:2])
 	
 	ax[1].plot(date, values[2], colors[2])
 	ax[1].set_ylabel('Control')
 	
-	ax[2].fill_between(date, 0, values[3], color='none', hatch='\\', edgecolor='b')
-	ax[2].set_ylabel('M/A')
+	ax[2].fill_between(date, 0, values[3], hatch='x', edgecolor='k')
+	ax[2].set_ylabel('Auto Mode')
 	
 	
 

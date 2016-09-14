@@ -6,7 +6,7 @@ from report_functions import *
 
 ########################################################3
 #Create a Report
-ReportName = 'HVACTrends'
+ReportName = 'HVAC_Trends_Report'
 try: 
 	pdf=PdfPages(ReportName+'.pdf')
 except:

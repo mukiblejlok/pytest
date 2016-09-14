@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<application xmlns='http://www.metsoautomation.com/DNA/APP'>
+	<externals>
+	
+	</externals>
+	<obj name='xmodule'>
+		<pty processArea='#HVAC#Mimics' 
+			moduleVersion='2' 
+			editorVersion='16.3.4.2' 
+			CR='B1' 
+			moduleName='gd:B1:MFZ2_Fan_Summary_1' 
+			moduleDestination='B1U' 
+			headerText='MFZ2 Fan Summary 1' 
+			description='MFZ2 Fan Summary 1' 
+			design_w='40000' 
+			design_h='20450' 
+			moduleType='2066' 
+			readonly='0' 
+			template='0' 
+			modifier='FMu' 
+			creator='Administrator' 
+			modclass='4390912' 
+			time='2016-02-08 13:34:51'/>
+		<obj name='locals'>
+			<data name='LMA' type='intltbl'>
+				<li><![CDATA[0,"L",55,6]]></li>
+				<li><![CDATA[1,"M",55,63]]></li>
+				<li><![CDATA[2,"A",55,0]]></li>
+			</data>
+		</obj>
+		<obj name='grbg'>
+			<databox x='15075' y='19364' w='8012' h='986' fg='200' bg='200' lw='200'/>
+			<text x='15358' y='19634' label='{{page.title}}' fi='166'/>
+			<text x='8615' y='19712' label='' fi='108'/>
+			<separator x='44' y='18089' w='39903' fg='0' lw='50' ls='5'/>
+			<separator x='13356' y='1266' h='16350' fg='0' lw='50' ls='5'/>
+			<text x='591' y='18199' label='AHU' fi='105'/>
+			<text x='3247' y='18199' label='Fan' fi='169'/>
+			<separator x='39942' y='1266' h='16350' fg='0' lw='50' ls='5'/>
+			<separator x='26649' y='1266' h='16350' fg='0' lw='50' ls='5'/>
+			<text x='6002' y='18199' label='Power' fi='105'/>
+			<text x='8044' y='18199' label='Speed' fi='105'/>
+			<separator x='63' y='1266' h='16350' fg='0' lw='50' ls='5'/>
+			<text x='10127' y='18199' label='Running Time' fi='105'/>
+			<text x='13840' y='18199' label='AHU' fi='105'/>
+			<text x='16496' y='18199' label='Fan' fi='169'/>
+			<text x='19251' y='18199' label='Power' fi='105'/>
+			<text x='21293' y='18199' label='Speed' fi='105'/>
+			<text x='23376' y='18199' label='Running Time' fi='105'/>
+			<text x='27133' y='18199' label='AHU' fi='105'/>
+			<text x='29789' y='18199' label='Fan' fi='169'/>
+			<text x='32544' y='18199' label='Power' fi='105'/>
+			<text x='34586' y='18199' label='Speed' fi='105'/>
+			<text x='36669' y='18199' label='Running Time' fi='105'/>
+			<separator x='227' y='2657' w='13040' fg='0' lw='50' ls='5'/>
+			<separator x='13498' y='2669' w='13040' fg='0' lw='50' ls='5'/>
+			<separator x='26902' y='14444' w='13040' fg='0' lw='50' ls='5'/>
+			<separator x='13498' y='8886' w='13040' fg='0' lw='50' ls='5'/>
+			<separator x='26902' y='11616' w='13040' fg='0' lw='50' ls='5'/>
+			<separator x='26902' y='8676' w='13040' fg='0' lw='50' ls='5'/>
+			<separator x='26902' y='5803' w='13040' fg='0' lw='50' ls='5'/>
+		</obj>
+

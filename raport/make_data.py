@@ -30,14 +30,15 @@ for file in file_list:
 for i in range(fnr):
 	if i < 9: numerator = '0'+str(i+1)
 	else: numerator = str(i+1)
-	filename = "data\data"+numerator+".csv"
+	filename = "data\A126TC"+numerator+".csv"
 	fhand = open(filename,'w')
 
 	#nr of values
 	#nrv = int(random.uniform(2,6))
 	nrv = 5
 	base_sp = random.uniform(20,24)
-	base_pos = random.uniform(50,100)
+	base_pos1 = random.uniform(50,100)
+	base_pos2 = random.uniform(50,100)
 	val_ma = 1
 
 	#create a file
@@ -52,9 +53,9 @@ for i in range(fnr):
 		date = inidate + datetime.timedelta(seconds=(j*sec_jump))
 		string = str(date)
 
-		val_me = random.uniform(1.0,1.1) * 0.3*math.sin(j) + base_sp
+		val_me = random.uniform(1.0,5.0) * 0.3*math.sin(0.1*j) + base_sp
 		val_sp = base_sp
-		val_pos = random.uniform(1.0,1.1) * base_pos + 0.2*math.sin(0.4*j)
+		val_pos = (j/flen) * random.uniform(1.0,1.01) * base_pos1 + ((flen-j)/flen)*random.uniform(1.0,1.01) * base_pos2  
 		val_ma_tmp = 0
 		if random.uniform(0,10) >= 9.9:
 			if val_ma == 1 and val_ma_tmp == 0: 
